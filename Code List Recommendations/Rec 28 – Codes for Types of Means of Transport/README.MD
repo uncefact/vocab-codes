@@ -45,3 +45,39 @@ An indication of the maintenance status of individual entries in the code list.
 | a vertical bar (\|) | <ins>Changed desciption</ins>. Description of the means of transport code changed in this release of the code list |
 | a letter X (X) | <ins>Marked as deleted</ins>. Code entries marked as deleted will be retained indefinitely in the code lists. When appropriate, these entries may subsequently be reinstated via the maintenance process |
 | an equals sign (=) | <ins>Reinstated</ins>. Code entries previously marked as deleted and reinstated in this release of the code list |
+
+
+**Mode (M)**
+
+Mode of transport code as defined in Recommendation 19 (Codes for Modes of Transport), in particular:
+
+| Code | Mode of Transport |
+| --- | --- |
+| 1 | Maritime transport |
+| 2 | Rail transport |
+| 3 | Road transport |
+| 4 | Air transport |
+| 6 | Multimodal transport |
+| 7 | Fixed transport installation |
+| 8 | Inland water transport |
+
+**Code**
+
+3-character alphanumeric code value comprising characters 0 to 9 and upper case A to Z.
+In certain instances, the code value itself may be structured, where the lead character(s) represent the
+general description and where the subordinate or sub-type specific descriptions are represented by
+code entries with a further trailing character. For example, in maritime transport the code value "50"
+represents "General cargo vessel", whilst "501" is a subordinate code entry that represents "Grain
+vessel".
+
+For ease of reference, certain code values are shown in two parts (e.g. "50 1". In use, the code
+value should be a single value with no imbedded space characters (e.g. "501")
+
+
+**Code name**
+
+The name of the means of transport code
+
+**Code description**
+
+A plain text specification of the named means of transport code, not exceeding 350 characters in length and in English
