@@ -32,8 +32,7 @@ approved by the ICG, in April 2007.
 
 ## II. CODE LIST PRESENTATION
 
-1. The code list is presented with the following
-columns:
+1. The code list is presented with the following columns:
 
 **Change indicator (CI)**
 
@@ -81,3 +80,50 @@ The name of the means of transport code
 **Code description**
 
 A plain text specification of the named means of transport code, not exceeding 350 characters in length and in English
+
+2. For air transport (mode of transport = 4), the codes for types of means of transport are specified in the IATA
+(International Air Transport Association) publication Standard Schedules Information Manual (SSIM) under the section "ATA/IATA Aircraft Types". The referenced
+codes cover all aircraft that are flown, or are soon to be flown, for commercial scheduled or chartered services only, or have been announced by the manufacturer and
+for which airline orders have been placed.
+
+Further information is available from:
+
+IATA
+800 Place Victoria
+P.O. Box 113
+Montreal, Quebec
+H4Z 1M1
+Phone: +1 (514) 874-0202
+Fax: +1 (514) 874-9632
+http://www.iata.org
+
+
+## III. MAINTENANCE AND UPDATING
+
+3. Recommendation 28 is maintained on behalf of UN/CEFACT by the by the UN/CEFACT Information Content Management Group (ICG).
+
+4. Proposals for updating this Recommendation should be addressed to the Trade Facilitation Section,
+United Nations Economic Commission for Europe, Palais des Nations, CH-1211 Geneva 10, Switzerland or by
+email to:
+
+cefact@unece.org
+
+5. Draft revisions to the body text and/or code list of this Recommendation shall be issued by the ICG when
+required and shall be made available on the ICG Web site listed at:
+
+http://www.uncefactforum.org/ICG
+
+6. Draft revisions shall be subject to a public comment period of at least two months. UN/CEFACT
+Heads of Delegation shall be notified of the availability of a draft revision and the period for comment. Following
+the conclusion of the comment period, the ICG shall address all comments received. Depending on the
+comments received, the ICG shall issue a new draft edition for comment or shall prepare a final edition for
+approval.
+
+7. Final revisions to the body text of this Recommendation shall be approved by the UN/CEFACT
+Plenary and shall be made available on the UN/CEFACT Web site:
+
+http://www.unece.org/cefact
+
+8. Final revisions to the code lists of this Recommendation shall be approved by the ICG Plenary
+and notified to the UN/CEFACT Plenary. These revisions shall be made available on the UN/CEFACT
+Web site
