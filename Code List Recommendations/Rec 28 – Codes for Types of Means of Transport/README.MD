@@ -134,3 +134,13 @@ http://www.unece.org/cefact
 8. Final revisions to the code lists of this Recommendation shall be approved by the ICG Plenary
 and notified to the UN/CEFACT Plenary. These revisions shall be made available on the UN/CEFACT
 Web site
+
+## IV. DISCLAIMER
+
+9. All information provided in this Recommendation, including in its associated annexes, is provided "as is",
+without warranty of any kind, either express or implied, including, without limitation, warranties of
+merchantability, fitness for a specific purpose and non-infringement. UN/CEFACT specifically does not make
+any warranties or representations as to the accuracy or completeness of any information published in this
+Recommendation. Under no circumstances shall UN/CEFACT be liable for any loss, damage, or expense
+incurred or suffered that is claimed to have resulted from the use of this Recommendation. The use of this
+Recommendation is at the user’s sole risk.
