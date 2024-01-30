@@ -1,5 +1,18 @@
 # RECOMMENDATION No. 28, CODES FOR TYPES OF MEANS OF TRANSPORT
 
+Recommendation 28 establishes a common code list for the identification of the type of means of transport. It has particular relevance to transport organizations and providers, Customs and other authorities, statistical offices, forwarders, shippers, consignees and other parties concerned with transport.
+
+| Title | Revised | English | French | Russian |
+| --- | --- | --- | --- | --- |
+|Revision 4.2 of code list (**current**)|2018|[xls](./editions%26revisions/Rec28_Rev4.2e_2018.xls)<br/>[csv](./current/Rec28_Rev4.2e_2018.csv)|||
+|Revision 4.1 of code list|2014|[xls](./editions%26revisions/rec28_Rev4.1e_2014.xls)|||
+|Revision 4 of code list|2014|[xls](./editions%26revisions/rec28_Rev4e_2014.xls)|||
+| CEFACT/ICG/2010/IC011 - Codes for Types of Means of Transport - Revision 3|2010|[pdf](./editions%26revisions/Rec28_Rev3e_2010.pdf)<br/>[xls](./editions%26revisions/rec28_Rev3e_2010.xls)|||
+| CEFACT/ICG/2007/IC003 - Revision 2|2007|[pdf](./editions%26revisions/rec28_rev2e_2007.pdf)<br/>[xls](./editions%26revisions/rec28_rev2e_%2007.xls)|||
+| ECE/TRADE/315 - Second Edition|2002|[pdf](./editions%26revisions/rec28_ece-trd-315.pdf)|||
+| TRADE/CEFACT/2001/23 - First Edition|2001|[pdf](./editions%26revisions/rec28_01cf23e.pdf)|[pdf](./editions%26revisions/rec28_01cf23f.pdf)|[pdf](./editions%26revisions/rec28_01cf23r.pdf)|
+
+
 ## I. PREAMBLE
 The United Nations, through its Centre for Trade
 Facilitation and Electronic Business (UN/CEFACT),
