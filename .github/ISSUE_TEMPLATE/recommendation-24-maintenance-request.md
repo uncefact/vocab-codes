@@ -3,8 +3,8 @@ name: Recommendation 24 Maintenance Request
 about: This issue template allows to raise a maintenance requestion for Recommendation
   24 Code List
 title: "[Rec24 MR]"
-labels: ''
-assignees: ''
+labels: MR, Rec-24
+assignees: KevinBish-UNECE
 
 ---
 

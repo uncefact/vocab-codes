@@ -3,8 +3,8 @@ name: Recommendation 28 Maintenance Request
 about: This issue template allows to raise a maintenance requestion for Recommendation
   28 Code List
 title: "[Rec28 MR]"
-labels: ''
-assignees: ''
+labels: MR, Rec-28
+assignees: kevinbish
 
 ---
 
