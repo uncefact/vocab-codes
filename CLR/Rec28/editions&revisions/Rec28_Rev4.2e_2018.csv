@@ -1,0 +1,283 @@
+CI,Mode,Code-A,Code-B,Name,Description
+,1,50,,General cargo vessel,Vessel designed to carry general cargo.
+,1,50,1,Grain vessel,Vessel designed to carry grain.
+,1,50,2,Timber/log carrier,Vessel designed to carry logs and timber.
+,1,50,3,Wood chips vessel,Vessel designed to carry wood chips.
+,1,50,4,Steel products vessel ,Vessel designed to carry steel products.
+,1,50,5,"Carrier, general cargo/container",Vessel designed to carry general cargo and containers.
+,1,50,6,Temperature controlled cargo vessels,Vessel designed to carry temperature-controlled cargo.
+,1,51,,Unit carrier,Vessel designed to carry unit loads
+,1,51,1,Full container ship/cellular vessel,Vessel designed to carry containers only.
+,1,51,2,RoRo vessel,Vessel with ramp designed to carry roll-on/roll-off cargo.
+,1,51,3,Car carrier,Vessel designed to carry automotive vehicles or their knock-down parts.
+,1,51,4,Livestock carrier,Vessel designed to carry livestock.
+,1,51,5,Barge carrier – Lash ship,Vessel designed to carry barges. Lash means lighters aboard ship.
+,1,51,6,Chemical carrier,Vessel designed to carry chemicals in bulk or drums not in tanks.
+,1,51,7,Irradiated fuel carrier,Vessel designed to carry irradiated fuel.
+,1,51,8,Heavy cargo vessel,Ship designed to carry heavy cargo.
+,1,51,9,RoRo/Container vessel,Vessel designed to carry both containers and roll-on/roll-off cargo.
+,1,52,,Bulk carrier,Vessel designed to carry bulk cargo.
+,1,52,1,Dry bulk carrier,Vessel designed to carry dry bulk (expellers).
+,1,52,2,Ore carrier ,Vessel designed to carry ore.
+,1,52,3,Cement carrier,Vessel designed to carry cement.
+,1,52,4,Gravel carrier,Vessel designed to carry gravel.
+,1,52,5,Coal carrier,Vessel designed to carry coal.
+,1,53,,Tanker,Vessel solely equipped with tanks to carry cargo.
+,1,53,1,Crude oil tanker ,Tanker designed to carry crude oil.
+,1,53,2,"Chemical tanker, coaster",Tanker designed to carry chemicals in coastal traffic.
+,1,53,3,"Chemical tanker, deep sea",Tanker designed to carry chemicals in deep sea.
+,1,53,4,Oil and other derivatives tanker,Tanker designed to carry oil and other derivatives.
+,1,54,,Liquefied gas tanker,Tanker designed to carry liquefied gas.
+,1,54,1,LPG tanker,Vessel designed to carry Liquefied Petroleum Gas (LPG).
+,1,54,2,LNG tanker,Tanker designed to carry Liquefied Natural Gas (LNG).
+,1,54,3,LNG/LPG tanker,Tanker designed to carry Liquefied Natural Gas (LNG) and Liquefied Petroleum Gas (LPG).
+,1,55,,Other special tanker,Tanker designed to carry other special liquids.
+,1,55,1,Asphalt/bitumen tanker,Tanker designed asphalt and bitumen.
+,1,55,2,Molasses tanker,Tanker designed to carry molasses.
+,1,55,3,Vegetable oil tanker,Tanker designed to carry vegetable oil.
+,1,57,,Cargo and passenger vessel,Vessel designed to carry cargo and passengers.
+,1,59,,Passenger ship,Vessel designed to carry more than 12 passengers.
+,1,59,1,Cruise ship,Passenger ship designed to carry tourists on specified routes.
+,1,59,2,Ferry,Vessel designed to ply regularly between two or more ports.
+,1,59,3,Other passenger ship,"Vessel designed to carry passengers, not otherwise specified."
+,1,59,4,"Passenger ship, sailing",Vessel designed to carry passengers and mainly propelled by sails.
+,1,60,,Assistance vessel,Vessel designed to give assistance.
+,1,60,1,"Tug, without tow",Vessel designed to tow objects but sailing alone.
+,1,60,2,"Tug, with tow","Vessel designed to tow, and towing an object."
+,1,60,3,Salvage vessel,Vessel designed to salvage.
+,1,60,4,Rescue vessel,Vessel designed to effect rescue operations.
+,1,60,5,Oil combat vessel,Vessel designed to combat oil spills.
+,1,60,6,Oil rig,Object designed for drilling oil at sea.
+,1,60,7,Hospital vessel,Vessel designed to serve as a hospital at sea.
+,1,70,,Other sea-going vessel,"Sea-going vessel, not otherwise specified."
+,1,71,1,Pilot boat,Vessel designed to convey pilots to/from ships.
+,1,71,2,Patrol/measure ship,"Vessel designed to guard, patrol or measure."
+,1,72,,Work ship,Vessel designed to assist in work.
+,1,72,1,Supply vessel,Vessel designed to provide supplies.
+,1,72,3,Offshore support vessel,Vessel designed to provide offshore support.
+,1,72,4,Pontoon,Flat-bottomed vessel with a flat deck.
+,1,72,5,Stone dumping vessel,Vessel designed to dump stones.
+,1,72,6,Cable layer,Vessel designed to lay cable.
+,1,72,7,Buoyage vessel,Vessel designed to handle buoys.
+,1,72,8,Icebreaker,Vessel designed to break ice.
+,1,72,9,Pipelaying vessel,Vessel designed to lay pipe.
+,1,73,,Push boat,Vessel designed to push other vessels.
+,1,74,,Dredger,Vessel designed to scoop or suck mud or sand.
+,1,75,,Fishing boat,Vessel designed for fishing.
+,1,75,1,Trawler,Vessel designed to drag a bag-like net.
+,1,75,2,Cutter,Small vessel that sometimes can be carried on a larger ship.
+,1,75,3,Factory ship,Vessel designed as a fish factory.
+,1,76,,Research and education ship,Vessel designed for research and education.
+,1,76,1,Fishery research vessel,Vessel designed for fishery research.
+,1,76,2,Climate registration vessel,Vessel designed for climate registration.
+,1,76,3,Ship for environmental measurement,Vessel designed for environmental monitoring and measurement.
+,1,76,4,Scientific vessel,Vessel designed for scientific purposes.
+,1,76,5,Sailing school ship,"Vessel designed for training, powered by sail."
+,1,76,6,Training vessel,Vessel designed for training.
+,1,77,,Navy vessel,Vessel operated by a Navy.
+,1,78,,"Structure, floating",Any floating structure.
+,1,78,1,"Crane, floating",A crane mounted on a barge or pontoon.
+,1,78,2,"Dock, floating",A submersible floating structure used as a dock.
+,1,80,,Pleasure boat,Vessel designed for recreation.
+,1,81,,Speedboat,"Vessel designed for speed, often used for recreation."
+,1,82,,Sailing boat with auxiliary motor,Vessel designed primarily for sailing outfitted with an auxiliary motor.
+,1,83,,Sailing yacht,A specific type of vessel mostly used for pleasure and designed for sailing.
+,1,84,,Boat for sport fishing,Vessel designed for sport fishing.
+|,1,85,,"Craft, pleasure, longer than 20 metres","A pleasure craft equal or longer than 20 metres, used for purposes of sports and recreation and not financial gain."
++,1,86,,"Craft, pleasure, smaller than 20 metres","A pleasure craft smaller than 20 metres, used for purposes of sports and recreation and not financial gain."
++,1,87,,"Craft, other, extra definitions and specifications",A small craft with some extra definitions and specifications.
+,1,89,,"Craft, other, recreational","Vessel designed for recreation, not otherwise specified."
+,1,90,,Fast ship,"Fast, all-purpose vessel."
+,1,91,,Hydrofoil,Vessel with wing-like structure for skimming at high speed.
+,1,92,,"Catamaran, fast",Fast vessel designed with two parallel hulls.
+,2,10,,"Train, railroad","One or more rail wagons pulled or pushed by one or more locomotive units, or self-propelled, that move over rail tracks."
+,2,20,,"Train, passenger",Train designed to carry passengers.
+,2,20,1,"Train, super express",Train designed for high speed.
+,2,20,2,"Train, sleeper",Passenger train that includes carriages for sleeping.
+,2,20,3,"Train, passenger, hired group",A chartered train.
+,2,30,,"Train, freight",Train for carrying freight.
+,2,30,1,Blocktrain,Train for carrying freight to the same destination.
+,2,30,2,"Train, container",Train for carrying containers.
+,2,30,3,"Train, with one wagon",Train with a single wagon for carrying freight.
+,2,30,4,"Train, with more than one and less than 20 wagons",Train with more than one and less than 20 wagons for carrying freight.
+,2,30,5,"Train, with more than 20 wagons",Train with more than 20 wagons for carrying freight.
+,3,1,,Truck,Automotive vehicle designed for hauling loads.
+,3,2,,"Truck, tanker",Automotive vehicle with a tank.
+,3,3,,Tractor,Automotive Vehicle with an engine designed for pulling.
+,3,4,,Van,Closed automotive vehicle designed for carrying freight.
+,3,4,1,"Van, delivery",Automotive vehicle designed for making fast deliveries.
+,3,4,2,"Van, light",Automotive vehicle designed for light carriage.
+,3,4,3,"Van, furniture",Automotive vehicle designed for carrying furniture.
+,3,5,,Tiptanker,Automotive vehicle designed with a tank lifting capability.
+,3,6,,"Truck, dry bulk",Automotive vehicle designed for carrying dry bulk cargo.
+,3,7,,"Truck, container",Automotive vehicle designed for carrying containers.
+,3,8,,"Carrier, car",Automotive vehicle designed for carrying motorcars.
+,3,9,,"Truck, reefer",Automotive vehicle designed for the carriage of frozen cargo.
+,3,10,,"Truck, mail",Automotive vehicle designed for carrying mail.
+,3,11,,Truck dump,Automotive vehicle designed with a cargo-dumping capability.
+,3,12,,"Truck, forklift",Automotive vehicle designed for lifting cargo and heavy objects.
+,3,13,,"Loader, shovel",Automotive vehicle designed for shoveling sand and other bulk material.
+,3,14,,"Truck, platform, fixed",Automotive vehicle designed with a fixed platform.
+,3,15,,"Carrier, straddle",Automotive vehicle designed for lifting and transporting containers.
+,3,20,,"Crane, mobile",Automotive vehicle with cargo crane.
+,3,20,1,"Car, elevator",Automotive vehicle with raisable work platform.
+,3,30,,Bus,Automotive vehicle designed for carrying more than 8 passengers including the driver.
+,3,30,1,"Bus, with trailer",Automotive vehicle with an attached trailer for carrying passengers and/or luggage.
+,3,30,2,"Bus, highway",Automotive vehicle designed for highway travel.
+,3,30,3,"Bus, sightseeing",Automotive vehicle designed for sightseeing.
+,3,30,4,"Bus, airport/city",Automotive vehicle designed to carry passengers and their baggage between an airport and a city and return.
+,3,60,,"Tractor, industrial",Automotive vehicle designed for towing one or more trailers.
+,3,62,,"Truck, freezer with isothermic trailer,",Automotive vehicle designed for carrying frozen goods with a trailer designed for carrying temperature-controlled goods.
+,3,63,,"Truck, isothermic with isothermic trailer",Automotive vehicle with trailer designed to carry temperature-controlled goods.
+,3,64,,"Truck, refrigerated with isothermic trailer",Automotive vehicle designed for carrying refrigerated goods with a trailer designed for carrying temperature-controlled goods.
+,3,65,,"Truck, freezer with refrigerated trailer",Automotive vehicle designed for carrying frozen goods with a trailer designed for carrying refrigerated goods.
+,3,66,,"Truck, isothermic with refrigerated trailer",Automotive vehicle designed to carry temperature-controlled goods with a trailer designed to carry refrigerated goods.
+,3,67,,"Truck, opening floor, with extendable trailer",Automotive vehicle with an opening floor with an extendable trailer.
+,3,68,,"Truck, rigid, with tank and tank trailer",Rigid automotive vehicle designed with a tank with a tank trailer.
+,3,69,,"Truck, bulk with tank trailer",Automotive vehicle designed for bulk carrying with a tank trailer.
+,3,70,,"Truck, rigid with tank and bulk trailer",Rigid automotive vehicle designed with a tank with a trailer capable of carrying bulk cargo and liquid.
+,3,71,,"Truck, bulk with bulk trailer",Automotive vehicle and trailer both designed for carrying bulk cargo.
+,3,72, ,"Truck, tautliner with extendable trailer",Automotive tautliner vehicle with extendable trailer.
+,3,73, ,"Truck, tautliner with removable roof and extendable trailer",Automotive tautliner vehicle with removable roof and extendable trailer.
+,3,74, ,"Truck, bulk truck with extendable trailer",Automotive vehicle designed for carrying bulk cargo with an extendable trailer.
+,3,75, ,"Truck, refrigerated with freezer trailer",Automotive vehicle designed for carrying refrigerated goods with a trailer designed to carry frozen goods.
+,3,76, ,"Truck, isothermic with freezer trailer",Automotive vehicle designed for carrying temperature-controlled goods with a trailer designed for carrying frozen goods.
+,3,77, ,"Truck, furniture with trailer",Automotive vehicle designed for carrying furniture with a trailer.
+,3,78,,"Truck, tautliner with furniture trailer",Automotive tautliner vehicle with trailer designed for carrying furniture.
+,3,79, ,"Truck, tautliner, removable roof with furniture trailer",Automotive tautliner vehicle designed with a removable roof with a trailer designed for carrying furniture.
+,3,80, ,"Truck, tip-up with gondola trailer",Automotive vehicle designed with a tip-up capability with a gondola trailer.
+,3,81, ,"Truck, tautliner with gondola trailer",Automotive tautliner vehicle with a gondola trailer.
+,3,82, ,"Truck, tautliner, with removable roof and gondola trailer",Automotive tautliner vehicle with removable roof and a gondola trailer.
+,3,83,,"Truck, opening floor with gondola trailer",Automotive vehicle with an opening floor and with a gondola trailer.
+,3,84,,"Truck, bulk with gondola trailer",Automotive vehicle designed for carrying bulk cargo with a gondola trailer.
+,3,85,,"Truck, tip-up with extendable gondola trailer",Automotive vehicle designed with a tip-up capability with an extendable gondola trailer.
+,3,86,,"Truck, tautliner with extendable gondola trailer",Automotive tautliner vehicle with an extendable gondola trailer.
+,3,87,,"Truck, tautliner, removable roof with extendable gondola trailer",Automotive tautliner vehicle designed with a removable rook and with an extendable gondola trailer.
+,3,88,,"Truck, opening floor with extendable gondola trailer",Automotive tautliner vehicle designed with an opening floor and with an extendable gondola trailer.
+,3,89,,"Truck, bulk with extendable gondola trailer",Automotive vehicle designed for carrying bulk cargo with an extendable gondola trailer.
+,3,90,,"Truck, tip-up truck with opening floor trailer",Automotive vehicle designed with a tip-up capability with an opening-floor trailer.
+,3,91,,"Truck, tautliner with opening floor trailer",Automotive tautliner vehicle with opening-floor trailer.
+,3,92,,"Truck, tautliner, removable roof, with opening floor trailer","Automotive tautliner vehicle with a removable roof, with an opening-floor trailer."
+,3,93,,"Truck, opening-floor with opening-floor trailer",Automotive vehicle and trailer both with opening floors.
+,3,94,,"Truck, bulk truck with opening- floor trailer",Automotive vehicle designed for carrying bulk cargo with an opening-floor trailer.
+,3,95,,"Truck, with trailer","Automotive vehicle designed to pull a trailer, with a trailer attached."
+,3,96,,"Truck, tilt, with tilt trailer",Automotive vehicle with a tilt capability with a trailer also with a tilt capability.
+,3,97,,"Truck, refrigerated, with refrigerated trailer",Automotive vehicle designed to carry refrigerated goods with a trailer also capable or carrying refrigerated goods.
+,3,98,,"Truck, freezer with freezer trailer",Automotive vehicle capable of carrying frozen goods with a trailer also capable of carrying frozen goods.
+,3,99,,"Truck, removal with removal trailer",Automotive vehicle designed to carry household effects with a trailer also capable of carrying household effects.
+,3,100,,"Truck, tautliner with removal trailer",Automotive tautline truck with trailer capable of carrying household effects.
+,3,101,,"Truck, tautliner with removable roof and removal trailer",Automotive tautline vehicle with removable roof and a trailer capable of carrying household effects.
+,3,102,,"Car, with caravan",Automobile towing a house trailer.
+,3,103,,"Truck, tautliner, 25 tonne",Automotive tautline vehicle with a 25 tonne capacity.
+,3,104,,"Truck, tautliner, 25 tonne with removable roof",Automotive tautline vehicle with a 25 tonne capacity and a removable roof.
+,3,105,,"Lorry, articulated, flat bed, 25 tonne",Articulated automotive vehicle with a flat bed and 25 tonne capacity.
+,3,106,,"Lorry, articulated, flat bed, 24 tonne, with 10 metre crane",Articulated automotive vehicle with a flat bed and 25 tonne capacity with a 10 metre crane attached.
+,3,107,,"Lorry, articulated, flat bed, 24 tonne, with 15 metre crane",Articulated automotive vehicle with a flat bed and 25 tonne capacity with a 15 metre crane attached.
+,3,108,,"Lorry, articulated, flat bed, 24 tonne, with 18 metre crane",Articulated automotive vehicle with a flat bed and 25 tonne capacity with an 18 metre crane attached.
+,3,109,,"Lorry, articulated, flat bed, 10 tonne",Articulated automotive vehicle with a flat bed and 10 tonne capacity.
+,3,110,,"Truck, tautliner, 25 tonne, with 90 cubic metre trailer",Automotive tautline vehicle with a 25 tonne capacity and a 90 cubic metre trailer.
+,3,111,,"Truck, tautliner, 25 tonne, with 120 cubic metre trailer",Automotive tautline vehicle with a 25 tonne capacity and a 120 cubic metre trailer.
+,3,112,,"Lorry, flat with trailer and 10 metre crane",Automotive vehicle with flat bed and trailer and 10 metre crane.
+,3,113,,"Lorry, articulated with tank",Articulated automotive vehicle with tank designed for carrying liquid or bulk goods.
+,3,114,,"Lorry, flat, 15 tonne",Automotive vehicle with flat bed and a 15 tonne capacity.
+,3,115,,"Lorry, flat, 15 tonne with crane",Automotive vehicle with flat bed and a 15 tonne capacity and attached crane.
+,3,116,,"Truck, isothermic",Automotive vehicle designed to carry temperature-controlled goods.
+,3,117,,"Truck, refrigerated",Automotive vehicle designed to carry refrigerated goods.
+,3,118,,"Van, freezer",Automotive vehicle designed to carry frozen goods.
+,3,119,,"Van, isothermic",Automotive vehicle designed to carry temperature-controlled goods.
+,3,120,,"Van, refrigerated",Automotive vehicle designed to carry refrigerated goods.
+,3,121,,"Truck, bulk",Automotive vehicle designed to carry bulk goods.
+,3,122,,"Truck, tip-up",Automotive vehicle designed with a tip-up capability.
+,3,123,,"Truck, articulated, tip-up",Articulated automotive vehicle designed with a tip-up capability.
+,3,124,,"Truck, rigid, with tank",Rigid automotive vehicle designed with a tank.
+,3,125,,"Truck, tautliner",Automotive vehicle with non-rigid sides.
+,3,126,,"Truck, tautliner, with removable roof",Automotive tautline vehicle with a removable roof.
+,3,127,,"Truck, with opening floor",Automotive vehicle with a floor that can be opened.
+,3,128,,"Truck, freezer",Automotive vehicle designed to carry frozen goods.
+,3,129,,"Truck, with crane for moving goods, without trailer","A truck with a crane for moving goods, without a trailer."
+,3,130,,"Truck, with crane for moving goods, with trailer","A truck with a crane for moving goods, with a trailer."
+,3,131,,"Truck, with crane for lifting goods, without trailer","A truck with a crane for lifting goods, without a trailer."
+,3,132,,"Truck, with crane for lifting goods, with trailer","A truck with a crane for lifting goods, with a trailer."
+,3,133,,Taxi cab,Automotive vehicle licensed to ply for hire.
+,3,134,,"Truck, furniture",Automotive vehicle designed for carrying furniture.
+,3,135,,"Truck, hydrant",Automotive vehicle designed for the delivery of fuel from a fixed installation to a means of transport.
+,3,136,,Car,Automotive vehicle designed to carry a small number of passengers.
+,3,137,,"Truck, with tail-lift",Automotive vehicle with a hydraulic lifting device on the rear of the vehicle for loading and unloading goods.
+,3,138,,Armoured vehicle,Automotive vehicle designed with fortified body for enhanced protection.
+,4,00,0,"Aircraft, type unknown",Aircraft of unknown type
+,5,00,0,"Mail, type unknown",Mail of unknown type
+,6,0,,"Multimodal, type unknown",Multimodal transport of unknown type.
+,7,0,,"Fixed transport installation, type unknown",Fixed transport installation of unknown type.
+,7,1,,Pipeline,A line of one or more pipes for continuous transport of liquid or gas commodity.
+,7,2,,Powerline,A line of one or more cables or wires for continuous transport of electricity.
+,8,0,,"Vessel, type unknown",Vessel of unknown type.
+,8,1,,Motor freighter,Motorized vessel designed for carrying general cargo.
+,8,02,,Motor tanker,Motorized vessel designed for carrying liquid cargo in fixed cargo tanks.
+,8,02,1,"Motor tanker, liquid cargo, type N","Motorized vessel designed for carrying liquid cargo in cargo tanks, type N according to ADN."
+,8,02,2,"Motor tanker, liquid cargo, type C","Motorized vessel designed for carrying special liquid chemicals in cargo tanks, type C according to ADN."
+,8,02,3,"Motor tanker, dry cargo",Motorized vessel designed for carrying dry cargo as if liquid in fixed tanks (e.g. cement).
+,8,03,,Container vessel,Motorized vessel specially designed and equipped for carrying containers.
+,8,04,,Gas tanker,"Motorized vessel designed for carrying gas in fixed cargo tanks, type G according to ADN."
+,8,5,,"Motor freighter, tug",Motorized vessel designed for carrying cargo and capable of towing.
+,8,6,,"Motor tanker, tug",Motorized vessel designed for carrying liquid cargo and capable to tow.
+,8,7,,Motor freighter with one or more ships alongside,Motorized vessel designed for carrying general cargo that has one or more vessels alongside.
+,8,8,,Motor freighter with tanker,Motorized vessel designed for carrying general cargo alongside a vessel designed for carrying liquid cargo.
+,8,9,,Motor freighter pushing one or more freighters,"Motorized vessel designed for carrying general cargo, pushing one or more vessels also designed for carrying general cargo."
+,8,10,,Motor freighter pushing at least one tank-ship,"Motorized vessel designed for carrying general cargo, pushing at least one vessel designed to carry a liquid cargo."
+,8,11,,"Tug, freighter",Vessel designed to push or pull another vessel that is also capable of carrying general cargo.
+,8,12,,"Tug, tanker",Vessel designed to push or pull another vessel also capable of carrying liquid cargo.
+,8,13,,"Tug, freighter, coupled",Vessel designed to push or pull another vessel that is also capable of carrying general cargo tied to one or more other vessels.
+,8,14,,"Tug, freighter/tanker, coupled",Vessel designed to push or pull another vessel that is also capable of carrying either general or liquid cargo tied to one or more other vessels.
+,8,15,,Freight barge,"Lighter or Barge designed for carrying general cargo, either having no motive power of its own or having only sufficient motive power to perform restricted manoeuvres."
+,8,16,,Tank barge,"Lighter or Barge designed for carrying liquid cargo in fixed tanks, either having no motive power of its own or having only sufficient motive power to perform restricted manoeuvres."
+,8,16,1,"Tank barge, liquid cargo, type N","Lighter or Barge designed for carrying liquid cargo in cargo tanks, type N according to ADN, either having no motive power of its own or having only sufficient motive power to perform restricted manoeuvres."
+,8,16,2,"Tank barge, liquid cargo, type C","Lighter or Barge designed to for carrying special liquid chemicals in cargo tanks, type C according to ADN, either having no motive power of its own or having only sufficient motive power to perform restricted manoeuvres."
+,8,16,3,"Tank barge, dry cargo","Lighter or Barge designed for carrying dry cargo in fixed tanks as if liquid (e.g. cement), either having no motive power of its own or having only sufficient motive power to perform restricted manoeuvres."
+,8,17,,Freight barge with containers,"Lighter or Barge specially designed and equipped for carrying containers, either having no motive power of its own or having only sufficient motive power to perform restricted manoeuvres."
+,8,18,,"Tank barge, gas ","Lighter or Barge designed for carrying gas in cargo tanks, type G according to ADN, either having no motive power of its own or having only sufficient motive power to perform restricted manoeuvres."
+,8,21,,"Pushtow, one cargo barge","Vessel designed for pushing/towing, facilitating the movement of one cargo barge."
+,8,22,,"Pushtow, two cargo barges ","Combination designed for pushing/towing, facilitating the movement of two cargo barges"
+,8,23,,"Pushtow, three cargo barges","Combination designed for pushing/towing, facilitating the movement of three cargo barges"
+,8,24,,"Pushtow, four cargo barges","Combination designed for pushing/towing, facilitating the movement four cargo barges"
+,8,25,,"Pushtow, five cargo barges","Combination designed for pushing/towing, facilitating the movement of five cargo barges."
+,8,26,,"Pushtow, six cargo barges","Combination designed for pushing/towing, facilitating the movement of six cargo barges."
+,8,27,,"Pushtow, seven cargo barges","Combination designed for pushing/towing, facilitating the movement of seven cargo barges."
+,8,28,,"Pushtow, eight cargo barges","Combination designed for pushing/towing, facilitating the movement of eight cargo barges."
+,8,29,,"Pushtow, nine cargo barges","Combination designed for pushing/towing, facilitating the movement of nine or more cargo barges."
+,8,31,,"Pushtow, one gas/tank barge","Combination designed for pushing/towing, moving one tanker or gas barge."
+,8,32,,"Pushtow, two barges at least one tanker or gas barge ","Combination designed for pushing/towing, moving two barges of which at least one tanker or gas barge."
+,8,33,,"Pushtow, three barges at least one tanker or gasbarge","Combination designed for pushing/towing, moving three barges of which at least one is a tanker or gas barge."
+,8,34,,"Pushtow, four barges at least one tanker or gasbarge","Combination designed for pushing/towing, moving four barges of which at least one tanker or gasbarge."
+,8,35,,"Pushtow, five barges at least one tanker or gasbarge","Combination designed for pushing/towing, moving five barges of which at least one tanker of gasbarge."
+,8,36,,"Pushtow, six barges at least one tanker or gasbarge","Combination designed for pushing/towing, moving six barges of which at least one tanker or gasbarge."
+,8,37,,"Pushtow, seven barges at least one tanker or gasbarge ","Combination designed for pushing/towing, moving seven barges of which at least one tanker or gasbarge."
+,8,38,,"Pushtow, eight barges at least one tanker or gasbarge","Combination designed for pushing/towing, moving eight barges of which at least one tanker or gasbarge."
+,8,39,,"Pushtow, nine or more barges at least one tanker or gasbarge","Combination designed for pushing/towing, moving nine or more barges of which at least one tanker or gasbarge."
+,8,40,,"Tug, single",Vessel specially designed to perform towing operations.
+,8,41,,"Tug, one or more tows",Vessel designed for pushing another vessel that is involved in one or more concurrent tows.
+,8,42,,"Tug, assisting a vessel or linked combination",Vessel designed for pushing another vessel that is assisting one vessel or a combination of vessels or tugs and vessels.
+,8,43,,"Pushboat, single",Vessel specially designed for pushing a pushed convoy.
+,8,44,,"Passenger ship, ferry, red cross ship, cruise ship ",Vessels designed for carrying passengers.
+,8,44,1,Ferry ,Vessel designed for carrying passengers and/or vehicles on regular short voyages.
+,8,44,2,Red cross ship ,Passenger vessel with overnight passenger cabins designed for carrying sick and or disabled people.
+,8,44,3,Cruise ship ,Passenger vessel designed for carrying more than 12 passengers accommodated on board.
+,8,44,4,Passenger ship without accommodation,Passenger vessel designed for carrying more than 12 passengers but without passenger accommodation such as cabins etc.
+,8,44,5,Day-trip high speed vessel,Passenger vessel designed for carrying more than 12 passengers but without passenger accommodation such as cabins etc. capable of reaching speeds over 40 km/h in relation to water.
+,8,44,6,Day-trip hydrofoil vessel,"Passenger vessel designed for carrying more than 12 passengers but without passenger accommodation such as cabins etc., hydrofoil."
+,8,44,7,Sailing cruise ship,Passenger vessel built and fitted out also with a view to propulsion under sail and designed for carrying more than 12 passengers accommodated on board.
+,8,44,8,Sailing passenger ship without accommodation ,Passenger vessel built and fitted out also with a view to propulsion under sail and designed for carrying more than 12 passengers but without passenger accommodation such as cabins etc.
+,8,45,,Service vessel,"A tender (vessel for logistical support), dealing with the transport of small material and maintenance requirements outside the port area on rivers and other inland waterways."
+,8,45,1,Service vessel,"A tender (vessel for logistical support), dealing with the transport of small material and maintenance requirements outside the port area on rivers and other inland waterways."
+,8,45,2,Police patrol vessel,A vessel for the supervision by police for the enforcement of applicable rules and regulations.
+,8,45,3,Port service vessel,"A port tender (vessel for logistical support), dealing with the transport of material and people within a port area."
+,8,45,4,Navigation surveillance vessel,A vessel of the competent authority supervising waterway traffic and navigation to ensure safety and adherence to the respective rules and regulations.
+,8,46,,"Vessel, work maintenance craft, floating derrick, cable-ship, buoy-ship, dredge.",Vessel designed to perform a specific type of work.
+,8,47,,"Object, towed, not otherwise specified.",An object in tow that is not otherwise specified.
+,8,48,,Fishing boat,Vessel designed for fishing.
+,8,49,,Bunkership ,"Motorized vessel designed for carrying and delivering bunkers (products intended for the propulsion and operation of vessels) to other vessels, type N according to ADN."
+,8,50,,"Barge, tanker, chemical",Vessel designed to carry liquid or bulk chemicals.
+,8,51,,"Object, not otherwise specified.","A floating object that is not otherwise specified, i.e. a raft or other structure, object, establishment or assembly capable of  navigation, not being a vessel or floating equipment."
+X,8,52,,Service vessel,"A tender (vessel for logistical support), dealing with the transport of small material and maintenance requirements outside the port area on rivers and other inland waterways."
+X,8,53,,Police patrol vessel,A vessel for the supervision by police of applicable rules and regulations. 
+X,8,54,,Port service vessel,"A port tender (vessel for logistical support), dealing with the transport of material and people within a port area. "
+X,8,55,,Navigation surveillance vessel,A vessel of the competent authority (waterway) dealing with the surveillance of navigation.
