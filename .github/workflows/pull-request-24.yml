@@ -35,10 +35,14 @@ jobs:
         #tail -n +2 "code-list-new.csv" | sort >> code-list-new-sorted.csv
         # Generate commit message using csv-diff
         csv-diff code-list-old.csv code-list-new.csv --key=Code --singular=record --plural=records > message.txt
+        csv-diff code-list-old.csv code-list-new.csv --key=Code --singular=record --plural=records --json > message.json
         cat message.txt
         # todo: add check for message.txt content
         # mv code-list-new-sorted.csv "CRL/Rec24/current/code-list.csv"
-    
+
+    - run: echo "MESSAGE_JSON=$(jq -c . < message.json)" >> $GITHUB_ENV
+    - run: echo '${{ fromJson(env.MESSAGE_JSON).added[0].Code }}'
+        
     - name: Set variables
       if: ${{ hashFiles('message.txt') != '' }}
       run: |
