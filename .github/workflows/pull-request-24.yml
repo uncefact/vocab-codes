@@ -50,7 +50,7 @@ jobs:
         name: results
     - name: comment PR
       if: ${{ hashFiles('message.txt') != '' }}
-      uses: machine-learning-apps/pr-comment@master
+      uses: cuongnguyenngoc/pr-comment@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
