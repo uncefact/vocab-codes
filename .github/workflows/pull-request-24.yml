@@ -39,26 +39,19 @@ jobs:
         # todo: add check for message.txt content
         # mv code-list-new-sorted.csv "CRL/Rec24/current/code-list.csv"
     
-    - name: Set variables
+    - uses: actions/upload-artifact@v1
       if: ${{ hashFiles('message.txt') != '' }}
-      run: |
-          MSG=$(cat message.txt)
-          echo "MESSAGE=$MSG" >> $GITHUB_ENV
-          
-    - name: Comment a pull_request
-      if: ${{ hashFiles('message.txt') != '' }}
-      uses: mb2dev/github-action-comment-pull-request@1.0.0
       with:
-        message: |
-              message:
-              ${{ env.MESSAGE }}
+        name: message.txt
+        path: output
+    - uses: actions/download-artifact@v1
+      if: ${{ hashFiles('message.txt') != '' }}
+      with:
+        name: results
+    - name: comment PR
+      if: ${{ hashFiles('message.txt') != '' }}
+      uses: machine-learning-apps/pr-comment@master
+      env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-    - name: Commit and push if it changed
-      run: |-
-        git config user.name "Automated"
-        git config user.email "actions@users.noreply.github.com"
-        git add "CLR/Rec24/current/code-list.csv"
-        timestamp=$(date -u)
-        git commit -F message.txt || exit 0
-        git push
+      with:
+        path: results/message.txt
