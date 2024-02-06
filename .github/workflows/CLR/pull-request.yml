@@ -2,8 +2,8 @@ name: Diff code list
 
 on:
   pull_request:
-    paths:
-    - 'CLR/Rec24/current/code-list.csv'
+#    paths:
+#    - 'CLR/Rec24/current/code-list.csv'
       
 jobs:
   diff:
