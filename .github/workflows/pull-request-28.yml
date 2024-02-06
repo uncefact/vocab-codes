@@ -38,6 +38,22 @@ jobs:
         cat message.txt
         # todo: add check for message.txt content
         #mv code-list-new.csv "CRL/Rec28/current/code-list.csv"
+    
+    - name: Set variables
+      if: ${{ hashFiles('message.txt') != '' }}
+      run: |
+          MSG=$(cat message.txt)
+          echo "MESSAGE=$MSG" >> $GITHUB_ENV
+        
+    - name: Comment a pull_request
+      if: ${{ hashFiles('message.txt') != '' }}
+      uses: mb2dev/github-action-comment-pull-request@1.0.0
+      with:
+        message: |
+             message:
+             ${{ env.MESSAGE }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
