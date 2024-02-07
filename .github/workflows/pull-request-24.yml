@@ -40,7 +40,6 @@ jobs:
         # todo: add check for message.txt content
         # mv code-list-new-sorted.csv "CRL/Rec24/current/code-list.csv"
 
-    - run: echo "ADDED_JSON=$(jq -c .added[] < message.json)" >> $GITHUB_ENV
     - run: jq -c '.added[] | select (.CI != "+")' < message.json >> errors.txt
     - run: |
         [ -s errors.txt ] || rm -f errors.txt
