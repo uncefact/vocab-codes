@@ -42,6 +42,7 @@ jobs:
 
     - run: echo "ADDED_JSON=$(jq -c .added[] < message.json)" >> $GITHUB_ENV
     - run: jq -c '.added[] | select (.CI != "+")' < message.json >> error.txt
+    - run: cat error.txt
     - name: Comment a pull_request
       if: ${{ hashFiles('error.txt') != '' }}
       uses: mb2dev/github-action-comment-pull-request@1.0.0
