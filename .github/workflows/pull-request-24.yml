@@ -40,8 +40,19 @@ jobs:
         # todo: add check for message.txt content
         # mv code-list-new-sorted.csv "CRL/Rec24/current/code-list.csv"
 
-    - run: echo "MESSAGE_JSON=$(jq -c . < message.json)" >> $GITHUB_ENV
-    - run: echo '${{ fromJson(env.MESSAGE_JSON).added[0].Code }}'
+    - run: echo "ADDED_JSON=$(jq -c .added[] < message.json)" >> $GITHUB_ENV
+    - run: echo "ADDED_WRONG_CI_JSON=$(jq -c .added[] | select (.CI != "+") < message.json)" >> error.txt
+    - name: Comment a pull_request
+      if: ${{ hashFiles('error.txt') != '' }}
+      uses: mb2dev/github-action-comment-pull-request@1.0.0
+      with:
+        message: "A new code list value was added, but CI wasn't set to '+'."
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+    - name: Comment a pull_request
+      if: ${{ hashFiles('error.txt') != '' }}
+      run: exit 1
+        
         
     - name: Set variables
       if: ${{ hashFiles('message.txt') != '' }}
