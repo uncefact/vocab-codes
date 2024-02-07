@@ -40,19 +40,20 @@ jobs:
         # todo: add check for message.txt content
         # mv code-list-new-sorted.csv "CRL/Rec24/current/code-list.csv"
 
-    - run: echo "ADDED_JSON=$(jq -c .added[] < message.json)" >> $GITHUB_ENV
-    - run: jq -c '.added[] | select (.CI != "+")' < message.json >> error.txt
-    - run: cat error.txt && ls -la
+    - run: |
+        echo "ADDED_JSON=$(jq -c .added[] < message.json)" >> $GITHUB_ENV
+        jq -c '.added[] | select (.CI != "+")' < message.json >> errors.txt
+        [ -s errors.txt ] || rm -f errors.txt
     
-    - name: Check error.txt file
-      if: ${{ hashFiles('error.txt') != '' }}
+    - name: Check errors.txt file
+      if: ${{ hashFiles('errors.txt') != '' }}
       uses: mb2dev/github-action-comment-pull-request@1.0.0
       with:
         message: "A new code list value was added, but CI wasn't set to '+'."
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Exit if there are any errors
-      if: ${{ hashFiles('error.txt') != '' }}
+      if: ${{ hashFiles('errors.txt') != '' }}
       run: exit 1
         
         
