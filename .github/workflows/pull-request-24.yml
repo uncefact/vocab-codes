@@ -43,14 +43,15 @@ jobs:
     - run: echo "ADDED_JSON=$(jq -c .added[] < message.json)" >> $GITHUB_ENV
     - run: jq -c '.added[] | select (.CI != "+")' < message.json >> error.txt
     - run: cat error.txt && ls -la
-    - name: Comment a pull_request
+    
+    - name: Check error.txt file
       if: ${{ hashFiles('error.txt') != '' }}
       uses: mb2dev/github-action-comment-pull-request@1.0.0
       with:
         message: "A new code list value was added, but CI wasn't set to '+'."
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-    - name: Comment a pull_request
+    - name: Exit if there are any errors
       if: ${{ hashFiles('error.txt') != '' }}
       run: exit 1
         
