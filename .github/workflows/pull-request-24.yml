@@ -42,13 +42,13 @@ jobs:
 
     - run: jq -c '.added[] | select (.CI != "+")' < message.json >> errors.txt
     - run: |
-        [ -s errors.txt ] || rm -f errors.txt
+        [ -s errors.txt ] && echo "$(echo -n 'A new code list value was added, but CI wasn't set to `+`.'; cat errors.txt)" > errors.txt || rm -f errors.txt
     
     - name: Set variables
       if: ${{ hashFiles('errors.txt') != '' }}
       run: |
           {
-            echo 'MESSAGE<<EOF'
+            echo 'ERRORS<<EOF'
             cat errors.txt
             echo EOF
           } >> "$GITHUB_ENV"
@@ -57,8 +57,7 @@ jobs:
       uses: mb2dev/github-action-comment-pull-request@1.0.0
       with:
         message: |
-              "A new code list value was added, but CI wasn't set to '+'."
-              ${{ env.MESSAGE }}
+              ${{ env.ERRORS }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Fail check if there are errors
