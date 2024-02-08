@@ -40,7 +40,7 @@ jobs:
         # todo: add check for message.txt content
         # mv code-list-new-sorted.csv "CRL/Rec24/current/code-list.csv"
 
-    - run: jq -c '.added | select (.!=null) | select (.[]..CI != "+")' < message.json >> errors.txt
+    - run: jq -c '.added | select (.!=null) | select (.[].CI != "+")' < message.json >> errors.txt
     - run: |
         [ -s errors.txt ] && sed -i '1s/^/A new code list value was added, but CI was not set to `+`.\n/' errors.txt || rm -f errors.txt
     
