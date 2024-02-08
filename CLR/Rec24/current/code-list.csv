@@ -339,7 +339,7 @@ CI,Code,Name,Description
 ,372,"Equipment, loaded",The equipment has been loaded.
 ,373,"Equipment, held by transport operator",The equipment has been held by the transport operator.
 ,374,"Equipment, held by terminal operator",The equipment has been held by the terminal operator.
-,375,"Equipment, storage period at terminal exceeded",The equipment storage period at a transport terminal has been exceeded. 
+&,375,"Equipment, storage period at terminal exceeded",The equipment storage period at a transport terminal has been exceeded. 
 ,376,"Equipment, held by equipment operator",The equipment has been held by the equipment operator.
 +,378,Delivery Order Issued,Delivery Order for the goods/consignment/equipment/means has been issued.
 +,379,Cleared for container release,The procedures of containers’ release from container yard have been cleared by all authorities and private sectors.
