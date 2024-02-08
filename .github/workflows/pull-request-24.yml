@@ -44,9 +44,11 @@ jobs:
     - run: |
         [ -s errors.txt ] && sed -i '1s/^/A new code list value was added, but CI was not set to `+`.\n/' errors.txt || rm -f errors.txt
     
-    - run: jq -c '.removed | select (.!=null)' < message.json >> errors.txt
+    - run: jq -c '.removed | select (.!=null)' < message.json >> errors-removed.txt
     - run: |
-        [ -s errors.txt ] && sed -i '1s/^/No lines should be removed, set CI to `X` instead.\n/' errors.txt || rm -f errors.txt
+        [ -s errors-removed.txt ] && \
+          echo 'No lines should be removed, set CI to `X` instead.\n' >> errors.txt && \
+          cat errors-removed.txt >> errors.txt || rm -f errors-removed.txt
 
 
 
