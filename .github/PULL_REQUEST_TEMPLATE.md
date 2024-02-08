@@ -5,7 +5,7 @@
 
 ## Maintenance Request issue
 <!--- Specify the GitHub issue number with original Maintenance Request after '#'  -->
-Ref #
+Ref #{issue_number}
 
 ### Mentions:
 <!--- Keep maintainers team mentioned and add more mentions if needed -->
