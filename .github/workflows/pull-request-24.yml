@@ -50,7 +50,7 @@ jobs:
           echo 'No lines should be removed, set CI to `X` instead:' >> errors.txt && \
           cat errors-removed.txt >> errors.txt || rm -f errors-removed.txt
 
-    - run: jq -c '.changed | select (.!=null) | .[] | select (.CI != "#" && .CI != "|" && .CI != "X" && .CI != "=")' < message.json >> errors-CI.txt
+    - run: jq -c '.changed | select (.!=null) | .[] | select (.CI != "#" and .CI != "|" and .CI != "X" and .CI != "=")' < message.json >> errors-CI.txt
     - run: |
         [ -s errors-CI.txt ] && \
           echo 'Unexpected value set for CI:' >> errors.txt && \
