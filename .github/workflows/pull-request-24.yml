@@ -61,7 +61,9 @@ jobs:
               ${{ env.MESSAGE }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-          
+    - name: Fail check if there are errors
+      if: ${{ hashFiles('errors.txt') != '' }}
+      run: echo "Validation failed" && exit 1      
         
     - name: Set variables
       if: ${{ hashFiles('message.txt') != '' }}
