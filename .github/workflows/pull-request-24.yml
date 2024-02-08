@@ -44,6 +44,12 @@ jobs:
     - run: |
         [ -s errors.txt ] && sed -i '1s/^/A new code list value was added, but CI was not set to `+`.\n/' errors.txt || rm -f errors.txt
     
+    - run: jq -c 'has("removed")' < message.json >> errors.txt
+    - run: |
+        [ -s errors.txt ] && sed -i '1s/^/No lines should be removed, set CI to `X` instead.\n/' errors.txt || rm -f errors.txt
+
+
+        
     - name: Set variables
       if: ${{ hashFiles('errors.txt') != '' }}
       run: |
