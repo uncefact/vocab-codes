@@ -42,7 +42,7 @@ jobs:
 
     - run: jq -c '.added[] | select (.CI != "+")' < message.json >> errors.txt
     - run: |
-        [ -s errors.txt ] && echo "$(echo -n 'A new code list value was added, but CI wasn't set to `+`.'; cat errors.txt)" > errors.txt || rm -f errors.txt
+        [ -s errors.txt ] && sed -i '1s/^/A new code list value was added, but CI was not set to `+`.\n/' errors.txt || rm -f errors.txt
     
     - name: Set variables
       if: ${{ hashFiles('errors.txt') != '' }}
