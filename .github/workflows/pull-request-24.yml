@@ -53,7 +53,9 @@ jobs:
       
     - name: Exit if there are any errors
       if: ${{ hashFiles('errors.txt') != '' }}
-      run: exit 1
+      run: | 
+        echo "Proposed changes validation failed. " >> $GITHUB_STEP_SUMMARY
+        exit 1
         
         
     - name: Set variables
