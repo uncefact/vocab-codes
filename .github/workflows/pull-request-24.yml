@@ -44,45 +44,45 @@ jobs:
     - run: |
         [ -s errors-added.txt ] && \
         echo 'A new code list value was added, but CI was not set to `+`:' >> errors.txt && \
-        echo 'The ```' >> errors.txt && cat errors-added.txt >> errors.txt && echo 'The ```' >> errors.txt  || rm -f errors-added.txt
+        echo '```' >> errors.txt && cat errors-added.txt >> errors.txt && echo '```' >> errors.txt  || rm -f errors-added.txt
   
     - run: jq -c '.removed | select (.!=null) | .[]' < message.json >> errors-removed.txt
     - run: |
         [ -s errors-removed.txt ] && \
           echo 'No lines should be removed, set CI to `X` instead:' >> errors.txt && \
-          echo 'The ```' >> errors.txt && cat errors-removed.txt >> errors.txt && echo 'The ```' >> errors.txt  || rm -f errors-removed.txt
+          echo '```' >> errors.txt && cat errors-removed.txt >> errors.txt && echo '```' >> errors.txt  || rm -f errors-removed.txt
 
     - run: jq -c '.changed | select (.!=null) | .[] | select (.changes.CI != ["","="] and .changes.CI != ["","X"] and .changes.CI != ["","|"] and .changes.CI != ["","#"])' < message.json >> errors-CI.txt
     - run: |
         [ -s errors-CI.txt ] && \
           echo 'Unexpected value set for CI:' >> errors.txt && \
-          echo 'The ```' >> errors.txt && cat errors-CI.txt >> errors.txt && echo 'The ```' >> errors.txt  || rm -f errors-CI.txt
+          echo '```' >> errors.txt && cat errors-CI.txt >> errors.txt && echo '```' >> errors.txt  || rm -f errors-CI.txt
       
 
     - run: jq -c '.changed | select (.!=null) | .[] | select (.changes.CI == ["","="]) | if (.changes != {CI:["","="]}) then . else null end | select (.!=null)' < message.json >> errors-reinstated.txt
     - run: |
         [ -s errors-reinstated.txt ] && \
           echo 'Only CI should be changed for the record marked as reinstated:' >> errors.txt && \
-          echo 'The ```' >> errors.txt && cat errors-reinstated.txt >> errors.txt && echo 'The ```' >> errors.txt || rm -f errors-reinstated.txt
+          echo '```' >> errors.txt && cat errors-reinstated.txt >> errors.txt && echo '```' >> errors.txt || rm -f errors-reinstated.txt
 
           
     - run: jq -c '.changed | select (.!=null) | .[] | select (.changes.CI == ["","X"]) | if (.changes != {CI:["","X"]}) then . else null end | select (.!=null)' < message.json >> errors-deleted.txt
     - run: |
         [ -s errors-deleted.txt ] && \
           echo 'Only CI should be changed for the record marked as deleted:' >> errors.txt && \
-          echo 'The ```' >> errors.txt && cat errors-deleted.txt >> errors.txt && echo 'The ```' >> errors.txt || rm -f errors-deleted.txt
+          echo '```' >> errors.txt && cat errors-deleted.txt >> errors.txt && echo '```' >> errors.txt || rm -f errors-deleted.txt
 
     - run: jq -c '.changed | select (.!=null) | .[] | select (.changes.CI == ["","|"] and (.changes.Description == null or .changes.Name != null))' < message.json >> errors-changed-description.txt
     - run: |
         [ -s errors-changed-description.txt ] && \
           echo 'The description needs to be changed for the record with CI set to `|`:' >> errors.txt && \
-          echo 'The ```' >> errors.txt && cat errors-changed-description.txt >> errors.txt && echo 'The ```' >> errors.txt || rm -f errors-changed-description.txt
+          echo '```' >> errors.txt && cat errors-changed-description.txt >> errors.txt && echo '```' >> errors.txt || rm -f errors-changed-description.txt
                 
     - run: jq -c '.changed | select (.!=null) | .[] | select (.changes.CI == ["","#"] and (.changes.Description != null or .changes.Name == null))' < message.json >> errors-changed-description.txt
     - run: |
         [ -s errors-changed-name.txt ] && \
           echo 'The name needs to be changed for the record with CI set to `#`:' >> errors.txt && \
-          echo 'The ```' >> errors.txt && cat errors-changed-name.txt >> errors.txt && echo 'The ```' >> errors.txt || rm -f errors-changed-name.txt
+          echo '```' >> errors.txt && cat errors-changed-name.txt >> errors.txt && echo '```' >> errors.txt || rm -f errors-changed-name.txt
       
     - name: Set variables
       if: ${{ hashFiles('errors.txt') != '' }}
