@@ -4,7 +4,7 @@ about: This issue template allows to raise a maintenance requestion for Recommen
   28 Code List
 title: "[Rec28 MR]"
 labels: MR, Rec-28
-assignees: kevinbish
+assignees: kshychko
 
 ---
 ## Maintenance Request details
@@ -21,3 +21,7 @@ PR #{PR_number}
 
 ## Additional context
 <!-- Add any other context or screenshots about the feature request here -->
+
+### Mentions:
+<!--- Keep maintainers team mentioned and add more mentions if needed -->
+@uncefact/vocab-codes-maintainers

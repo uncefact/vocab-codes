@@ -2,9 +2,12 @@
 
 Recommendation 24 provides Transport Status Codes to satisfy requirements for exchanging coded information about the status of consignments, goods or means of transport at a certain time or place in the transport chain. Representation of Transport Status Codes can be given in plain language or in coded form. The codes provided for in the Recommendation are for use in manual and/or automated systems of information exchange in international trade.
 
+
+> Note: if you want to raise a Maintenance Request for this request, please fill in the details in a GitHub issue [here](https://github.com/uncefact/vocab-codes/issues/new?assignees=kshychko&labels=MR%2C+Rec-24&projects=&template=recommendation-24-maintenance-request.md&title=[Rec24+MR]) For more information check out our [wiki](https://github.com/uncefact/vocab-codes/wiki).
+
 | Title | Revised | English | French | Russian |
 | --- | --- | --- | --- | --- |
-|Revision 6 (Code list) (**current**)|2017|[xls](./editions%26revisions/rec24_Rev6e_2017.xls)<br>[csv](./current/rec24_Rev6e_2017.csv)|||
+|Revision 6 (Code list) (**current**)|2017|[xls](./editions%26revisions/rec24_Rev6e_2017.xls)<br>[csv](./editions%26revisions/rec24_Rev6e_2017.csv)|||
 |ECE/TRADE/C/CEFACT/2009/26 - Trade and Transport Status Codes - Revision|2009|[pdf](./editions%26revisions/Rec24-ECE_TRADE_C_CEFACT_2009_26E.pdf)|[pdf](./editions%26revisions/Rec24-ECE_TRADE_C_CEFACT_2009_26F.pdf)|[pdf](./editions%26revisions/Rec24-ECE_TRADE_C_CEFACT_2009_26R.pdf)|
 |CEFACT/ICG/2009/IC009 - Revision 5|2009|[pdf](./editions%26revisions/rec24_Rev5e_2009.pdf)<br/>[xls](./editions%26revisions/rec24_Rev5e_2009.xls)|||
 |CEFACT/ICG/2007/IC002 - Revision 4|2007|[pdf](./editions%26revisions/rec24_rev4e_2007.pdf)<br/>[xls](./editions%26revisions/rec24_rev4e_2007.xls)|||
@@ -76,7 +79,7 @@ Section, United Nations Economic Commission for Europe, Palais des Nations, CH-1
 Geneva 10, Switzerland or by email to: cefact@unece.org
 
 7. Draft revisions to the body text and/or code list of this Recommendation shall be issued by
-the ICG when required and shall be made available on the ICG Web site:
+the  when required and shall be made available on the ICG Web site:
 http://www.uncefactforum.org/ICG.
 
 8. Draft revisions shall be subject to a public comment period of at least two months.
