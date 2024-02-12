@@ -11,6 +11,9 @@ on:
 jobs:
   diff:
     runs-on: ubuntu-latest
+    environment:
+      name: test
+      url: https://test.uncefact.org/vocabulary/vocab-codes
     steps:
     - name: Check out this repo
       uses: actions/checkout@v4
