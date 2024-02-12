@@ -1,6 +1,6 @@
 # RECOMMENDATION No. 3, ISO COUNTRY CODE for Representation of Names of Countries
 
-Recommendation 3 which is known as the “ISO ALPHA 2 Country Code,” it is intended for use in representing the names of countries, dependencies, and other areas of special geopolitical interest for purposes of international trade whenever there is a need for a coded alphabetical designation. This code is maintained by ISO. Access ISO Online Browsing Platform (periodic updates by ISO).
+Recommendation 3 which is known as the “ISO ALPHA 2 Country Code,” it is intended for use in representing the names of countries, dependencies, and other areas of special geopolitical interest for purposes of international trade whenever there is a need for a coded alphabetical designation. This code is maintained by ISO. Access [ISO Online Browsing Platform](https://www.iso.org/obp/ui/#search/code/) (periodic updates by ISO).
 
 | Title | Revised | English | French | Russian |
 | --- | --- | --- | --- | --- |
