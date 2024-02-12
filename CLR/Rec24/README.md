@@ -3,7 +3,10 @@
 Recommendation 24 provides Transport Status Codes to satisfy requirements for exchanging coded information about the status of consignments, goods or means of transport at a certain time or place in the transport chain. Representation of Transport Status Codes can be given in plain language or in coded form. The codes provided for in the Recommendation are for use in manual and/or automated systems of information exchange in international trade.
 
 
-> Note: if you want to raise a Maintenance Request for this request, please fill in the details in a GitHub issue [here](https://github.com/uncefact/vocab-codes/issues/new?assignees=kshychko&labels=MR%2C+Rec-24&projects=&template=recommendation-24-maintenance-request.md&title=[Rec24+MR]) For more information check out our [wiki](https://github.com/uncefact/vocab-codes/wiki).
+> Note: if you want to raise a Maintenance Request for this request, please fill in the details in a GitHub issue [here](https://github.com/uncefact/vocab-codes/issues/new?assignees=kshychko&labels=MR%2C+Rec-24&projects=&template=recommendation-24-maintenance-request.md&title=[Rec24+MR])
+> 
+> For more information check out our [wiki](https://github.com/uncefact/vocab-codes/wiki).
+
 
 | Title | Revised | English | French | Russian |
 | --- | --- | --- | --- | --- |
