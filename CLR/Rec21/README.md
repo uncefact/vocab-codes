@@ -1,6 +1,12 @@
-# RECOMMENDATION No. 20, Codes for Passengers, Types of Cargo, Packages and Packaging Materials (with Complementary Codes for Package Names)
+# RECOMMENDATION No. 21, Codes for Passengers, Types of Cargo, Packages and Packaging Materials (with Complementary Codes for Package Names)
 
 Recommendation 21 presents coded representations for the package type names used in international trade. The codes are intended for use in manual and/or automated systems for the exchange of information between participants in international trade.
+
+> Note: if you want to raise a Maintenance Request for this request, please fill in the details in a GitHub issue [here](https://github.com/uncefact/vocab-codes/issues/new?assignees=kshychko&labels=MR%2C+Rec-21&projects=&template=recommendation-21-maintenance-request.md&title=[Rec21+MR]) 
+> 
+> For more information check out our [wiki](https://github.com/uncefact/vocab-codes/wiki).
+
+Current version in CVF formtat can be found [here](./current/code-list.csv)
 
 | Title | Revised | English | French | Russian |
 | --- | --- | --- | --- | --- |

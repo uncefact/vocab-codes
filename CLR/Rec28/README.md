@@ -2,6 +2,13 @@
 
 Recommendation 28 establishes a common code list for the identification of the type of means of transport. It has particular relevance to transport organizations and providers, Customs and other authorities, statistical offices, forwarders, shippers, consignees and other parties concerned with transport.
 
+> Note: if you want to raise a Maintenance Request for this request, please fill in the details in a GitHub issue [here](https://github.com/uncefact/vocab-codes/issues/new?assignees=kshychko&labels=MR%2C+Rec-24&projects=&template=recommendation-24-maintenance-request.md&title=[Rec24+MR]) 
+>
+> For more information check out our [wiki](https://github.com/uncefact/vocab-codes/wiki).
+
+Current version in CVF formtat can be found [here](./current/code-list.csv)
+
+
 | Title | Revised | English | French | Russian |
 | --- | --- | --- | --- | --- |
 |Revision 4.2 of code list (**current**)|2018|[xls](./editions%26revisions/Rec28_Rev4.2e_2018.xls)<br/>[csv](./current/Rec28_Rev4.2e_2018.csv)|||
