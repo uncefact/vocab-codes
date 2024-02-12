@@ -27,7 +27,7 @@ jobs:
         repository: uncefact/vocabulary-outputs
         path: vocabulary-outputs
         ref: vocab-codes
-        token:  ${{ secrets.ACTIONS_GITHUB_TOKEN }}
+        token:  ${{ secrets.PAT_TOKEN }}
     - name: Commit and push if it changed
       run: |-
         cd vocab-codes/CLR/Rec24/
