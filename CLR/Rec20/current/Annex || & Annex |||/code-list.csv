@@ -1,4 +1,4 @@
-Status,"CommonCode",Name,Description,"Level/Category",Symbol,ConversionFactor
+Status,"CommonCode",Name,Description,"LevelCategory",Symbol,ConversionFactor
 X,05,lift,,3.9,,
 X,06,small spray,,3.9,,
 X,08,heat lot,,3.9,,

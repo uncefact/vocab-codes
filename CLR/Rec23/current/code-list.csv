@@ -1,4 +1,4 @@
-CI,Group,Subgroup,Detail,Description,Mode/Site Indicator,Duplicate Indicator
+CI,Group,Subgroup,Detail,Description,ModeSiteIndicator,DuplicateIndicator
 ,1,00,000,    FREIGHT CHARGES,,
 ,1,00,999,All freight charges,,
 ,1,01,000,  BASIC FREIGHT,,
