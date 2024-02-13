@@ -5,7 +5,7 @@ def csv_to_json(csvFilePath, jsonFilePath):
     data = {}
     data["label"] = "Recommendation Code List 28"
     data["uri"] = "rec28"
-    data["comment"] = "Trade and Transport Status Codes"
+    data["comment"] = "Codes for Types of Means of Transport"
     values = []
       
     #read csv file
