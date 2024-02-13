@@ -1,18 +1,21 @@
 ---
-name: Recommendation 28 Maintenance Request
+name: Recommendation 21 Maintenance Request
 about: This issue template allows to raise a maintenance requestion for Recommendation
-  28 Code List
-title: "[Rec28 MR]"
-labels: MR, Rec-28
+  21 Code List
+title: "[Rec21 MR]"
+labels: MR, Rec-21
 assignees: kshychko
 
 ---
 ## Maintenance Request details
 <!-- Please describe the details of the maintenance request you are raising including the reason -->
-STATUS:
-Code: 
+Status:
+Code:
 Name:
 Description:
+Numeric code:
+
+
 Reason:
 
 ## Related Pull Request
@@ -24,4 +27,5 @@ PR #{PR_number}
 
 ### Mentions:
 <!--- Keep maintainers team mentioned and add more mentions if needed -->
+
 @uncefact/vocab-codes-maintainers

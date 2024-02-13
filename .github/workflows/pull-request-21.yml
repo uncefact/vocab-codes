@@ -1,0 +1,64 @@
+name: Diff code list 21
+
+on:
+  pull_request:
+    paths:
+    - 'CLR/Rec21/current/code-list.csv'
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Checkout PR
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: gh pr checkout ${{ github.event.pull_request.number }}
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install Python dependencies
+      run: |-
+        pip install csv-diff
+    - name: Fetch latest data
+      run: |-
+        cp "CLR/Rec21/current/code-list.csv" code-list-new.csv
+        curl -o code-list-old.csv "https://raw.githubusercontent.com/uncefact/vocab-codes/main/CLR/Rec21/current/code-list.csv"
+        # Remove heading line and use it to start a new file
+        ## todo: check if need sorting, simple sort isn't working because CI is the first column 
+        #head -n 1 code-list-new.csv > code-list-new-sorted.csv
+        ## Sort all but the first line and append to that file
+        #tail -n +2 "code-list-new.csv" | sort >> code-list-new-sorted.csv
+        # Generate commit message using csv-diff
+        csv-diff code-list-old.csv code-list-new.csv --key=Code --singular=record --plural=records > message.txt
+        cat message.txt
+        # todo: add check for message.txt content
+        #mv code-list-new.csv "CRL/Rec21/current/code-list.csv"
+    
+    - name: Set variables
+      if: ${{ hashFiles('message.txt') != '' }}
+      run: |
+          MSG=$(cat message.txt)
+          echo "MESSAGE=$MSG" >> $GITHUB_ENV
+        
+    - name: Comment a pull_request
+      if: ${{ hashFiles('message.txt') != '' }}
+      uses: mb2dev/github-action-comment-pull-request@1.0.0
+      with:
+        message: |
+             message:
+             ${{ env.MESSAGE }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add "CLR/Rec21/current/code-list.csv"
+        timestamp=$(date -u)
+        git commit -F message.txt || exit 0
+        git push

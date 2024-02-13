@@ -1,18 +1,22 @@
 ---
-name: Recommendation 28 Maintenance Request
+name: Recommendation 23 Maintenance Request
 about: This issue template allows to raise a maintenance requestion for Recommendation
-  28 Code List
-title: "[Rec28 MR]"
-labels: MR, Rec-28
+  23 Code List
+title: "[Rec23 MR]"
+labels: MR, Rec-23
 assignees: kshychko
 
 ---
 ## Maintenance Request details
 <!-- Please describe the details of the maintenance request you are raising including the reason -->
-STATUS:
-Code: 
-Name:
+CI:
+Group:
+Subgroup:
+Detail:
 Description:
+Mode/Site Indicator:
+Duplicate Indicator:
+
 Reason:
 
 ## Related Pull Request
