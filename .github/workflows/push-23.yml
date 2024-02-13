@@ -1,0 +1,47 @@
+name: Update code list 23
+
+on:
+  workflow_dispatch: 
+  push:
+    branches:
+      - main
+    paths:
+    - 'CLR/Rec23/current/code-list.csv'
+      
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    environment:
+      name: test
+      url: https://test.uncefact.org/vocabulary/vocab-codes
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        path: vocab-codes
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Checkout outpuuts repo
+      uses: actions/checkout@v4
+      with:
+        repository: uncefact/vocabulary-outputs
+        path: vocabulary-outputs
+        ref: vocab-codes
+        token:  ${{ secrets.PAT_TOKEN }}
+    - name: Commit and push if it changed
+      run: |-
+        cd vocab-codes/CLR/Rec23/
+        python csv_to_json.py
+        cd ../../../
+        cp vocab-codes/CLR/Rec23/current/rec23.json vocabulary-outputs/_data
+        cd vocabulary-outputs
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add "_data/rec23.json"
+        git status
+        timestamp=$(date -u)
+        git commit -m "feat: update Recommendation Code List 23" || exit 0
+        git push origin vocab-codes
