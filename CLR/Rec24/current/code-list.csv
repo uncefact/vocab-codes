@@ -344,3 +344,5 @@ CI,Code,Name,Description
 ,377,"Equipment, not released by equipment operator",The equipment has not been released by the equipment operator.
 ,378,Delivery Order Issued,Delivery Order for the goods/consignment/equipment/means has been issued.
 ,379,Cleared for container release,The procedures of containers’ release from container yard have been cleared by all authorities and private sectors.
++,380,New Trade and Transport Status Code #380,Description for the new Trade and Transport Status Code #380.
++,381,Another New Trade and Transport Status Code #381,Description for the another new Trade and Transport Status Code #381.
