@@ -7,6 +7,8 @@ Recommendation 20 Provides three character alphabetic and alphanumeric codes for
 > 
 > For more information check out our [wiki](https://github.com/uncefact/vocab-codes/wiki).
 
+Current version in CSV formtat can be found [here](./current/code-list.csv)
+
 Facilitates use of Recommendation 20. The code list is presented in three separate annexes:
 
     Annex I – Code elements listed by quantity category;
