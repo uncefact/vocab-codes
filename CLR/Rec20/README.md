@@ -2,6 +2,11 @@
 
 Recommendation 20 Provides three character alphabetic and alphanumeric codes for representing units of measurement for length, area, volume/capacity, mass (weight), time, and other quantities used in international trade. The codes are intended for use in manual and/or automated systems for the exchange of information between participants in international trade.
 
+
+> Note: if you want to raise a Maintenance Request for this request, please fill in the details in a GitHub issue [here](https://github.com/uncefact/vocab-codes/issues/new?assignees=kshychko&labels=MR%2C+Rec-20&projects=&template=recommendation-20-maintenance-request.md&title=[Rec20+MR]) 
+> 
+> For more information check out our [wiki](https://github.com/uncefact/vocab-codes/wiki).
+
 Facilitates use of Recommendation 20. The code list is presented in three separate annexes:
 
     Annex I – Code elements listed by quantity category;

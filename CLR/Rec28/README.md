@@ -6,7 +6,7 @@ Recommendation 28 establishes a common code list for the identification of the t
 >
 > For more information check out our [wiki](https://github.com/uncefact/vocab-codes/wiki).
 
-Current version in CVF formtat can be found [here](./current/code-list.csv)
+Current version in CSV formtat can be found [here](./current/code-list.csv)
 
 
 | Title | Revised | English | French | Russian |
