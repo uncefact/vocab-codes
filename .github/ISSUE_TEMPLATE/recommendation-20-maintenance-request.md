@@ -15,7 +15,10 @@ Name:
 Description:
 Level/Category:
 Symbol:
-Conversion Factor
+Conversion Factor:
+
+Reference: 
+
 
 
 Reason:
