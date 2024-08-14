@@ -2,21 +2,23 @@
 name: Recommendation 21 Maintenance Request
 about: This issue template allows to raise a maintenance requestion for Recommendation
   21 Code List
-title: "[Rec21 MR]"
+title: "[Rec21 DMR]"
 labels: MR, Rec-21
 assignees: kshychko
 
 ---
 ## Maintenance Request details
 <!-- Please describe the details of the maintenance request you are raising including the reason -->
-Status:
-Code:
-Name:
-Description:
-Numeric code:
+| Column                       | Value                                                                                                        |
+| -----------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Status:**                  |                                                                                                              |
+| **Code:**                    |                                                                                                              |
+| **Name:**                    |                                                                                                              |
+| **Description:**             |                                                                                                              |
+| **Numeric code:**            |                                                                                                              |
 
-
-Reason:
+**Reference**: 
+**Reason**: 
 
 ## Related Pull Request
 <!-- Add a reference to a corresponding Pull Request -->
